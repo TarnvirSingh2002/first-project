@@ -1,13 +1,30 @@
-h1{
-    color:rgb(170, 12, 109);
+*{
+    color:rgb(133, 41, 56);
+    background-color:antiquewhite;
 }
-p{
-    color:blueviolet;
+#gum{ 
+    /* for id */
+    color:blue
 }
-body{
-    background-color: rgb(146, 97, 127);
+.h{
+    /* for same class */
+   color:black;
 }
-button{
-    color:firebrick;
-    background-color: coral;
+#w{
+    text-align: center;
+    text-decoration:dottedline;
 }
+a{
+    text-decoration:none;
+}
+#h{
+    font-weight:normal;
+}
+#h1{
+    font-weight: bolder;
+}
+#h2{
+    font-weight:445;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
