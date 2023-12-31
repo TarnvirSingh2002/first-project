@@ -18,13 +18,13 @@ a{
     text-decoration:none;
 }
 #h{
-    font-weight:normal;
+    font-weight:lighter;
 }
 #h1{
     font-weight: bolder;
 }
 #h2{
     font-weight:445;
-    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 

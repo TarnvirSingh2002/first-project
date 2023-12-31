@@ -1,3 +1,16 @@
 #t{
-    font-size: 95px;
+    font-size: 95px;   
+}
+button{
+    cursor:pointer;
+}
+#lo{
+    text-transform: capitalize;
+}
+div{
+    text-align:center;
+    height:50px;
+    width:62px;
+    background-color:pink;
+    border:5 solid brown;
 }
