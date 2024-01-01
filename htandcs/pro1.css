@@ -1,0 +1,20 @@
+.c1{
+    height:60px;
+    width: 1466px;
+    background-color: #0f1111;
+}
+#i1{
+    font-size:25px;
+    color:orange;
+    margin-right: 200px;
+    text-decoration: none;
+}  
+.i2{
+    color:white;
+    text-transform: capitalize;
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: orange;
+}

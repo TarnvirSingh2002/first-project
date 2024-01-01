@@ -1,0 +1,26 @@
+.outer{
+    height: 330px;
+    width: 110px;
+    border:3px solid black;
+    background-color:pink;
+    }
+    
+#red{height:100;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid brown;
+    background-color: red;
+}
+#green{height:100;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid brown;
+    background-color: green;
+}
+#yellow{
+    height:100;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid brown;
+    background-color: yellow;
+}

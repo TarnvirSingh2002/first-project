@@ -7,10 +7,20 @@ button{
 #lo{
     text-transform: capitalize;
 }
-div{
+#good{
     text-align:center;
     height:50px;
     width:62px;
     background-color:pink;
-    border:5 solid brown;
+    border:1px solid brown;
+    border-radius: 10px;
+}
+#name{
+    text-align:center;
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid brown;
+    padding:25px;
+    margin:23px;
 }
