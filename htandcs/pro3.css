@@ -1,0 +1,14 @@
+*{
+    background-color:rgba(255,0,0,0.2);
+}
+.ikki{
+    font-size:10px;
+}
+#do{
+    font-size:10em;
+    width:10em;/*10x of itself font size */
+    height:1rem;/* same of h1 height*/
+    background-color:aqua;
+    /* vh is for screen height
+       vw is for screen width */
+} 
