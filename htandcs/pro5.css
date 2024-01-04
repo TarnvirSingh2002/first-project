@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://www.bing.com/images/blob?bcid=r6dybCdzVIMGnrqPsPLe1M4zMSUY.....0c");
+    background-size:cover;
+}
+#box1{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    position:absolute;
+    background-color: aquamarine;
+    top:50px;
+    z-index:1;
+}
+#box2{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    position:relative;
+    background-color: rgba(255,0,0,0.3);
+}
+#box3{
+    display: inline-block;
+    height:100px;
+    width:100px;
+    background-color:rgba(0,255,0,0.2);
+    position:fixed;
+    left:23px;
+    z-index:-1;
+}

@@ -1,0 +1,31 @@
+#ki{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    top:24px;
+    position:relative; /*it's used to position or place div in relation with body or their parent div */   
+}
+#da{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    background-color:rgba(0,255,0,0.34);
+    position:absolute;/*it's used to position or place div in relation with browser */
+    top: 89px;
+}
+#ha{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    background-color:rgba(255,0,0,0.3);
+    position:fixed;
+}
+#lo{
+    display:inline-block;
+    height: 100px;
+    width:100px;
+    background-color:rgba(0,255,0,0.12);
+    position:sticky;
+    top:0;
+}
