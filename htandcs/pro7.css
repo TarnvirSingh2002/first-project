@@ -1,0 +1,23 @@
+.black{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+#id{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border:2px solid black;
+    background-color:aquamarine;
+}
+#id1{
+    height: 100px;
+    width: 100px;
+    display:inline-block; 
+    border:2px solid black;
+    background-color:aquamarine;
+}
