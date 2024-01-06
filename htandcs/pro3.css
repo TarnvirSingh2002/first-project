@@ -12,3 +12,8 @@
     /* vh is for screen height
        vw is for screen width */
 } 
+#y{
+    height:100px;
+    width: 200px;
+    font-size:10em;
+}

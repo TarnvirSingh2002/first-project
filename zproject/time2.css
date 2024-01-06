@@ -1,0 +1,30 @@
+.nav{
+    height:50px;
+    background-color:black;
+    display:flex;
+    /* justify-content: space-between; */
+}
+#nav-im{
+    height:50px;
+    width: 100px;
+}
+#nav-ser{
+    height: 40px;
+    position:relative;
+    top: 3px;
+    bottom:2px;
+}
+#nav-op{
+    width: 40px;
+    height:40px;
+    top: 3px;
+    bottom:2px;
+    position:relative;
+    background-color: rgb(211, 207, 207);
+}
+#one{
+    font-weight:lighter;
+}
+#two{
+    font-weight:bolder;
+}

@@ -1,0 +1,31 @@
+#outer{
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    border:2px solid brown;
+    background-color: aquamarine; 
+    transition:all 2s; 
+    transform:translate(300px);
+    rotate: 360deg; 
+}
+@media(max-width:600px){
+    #outer{
+    background-color:green;
+    }
+}
+#inner:hover{
+    background-color: antiquewhite;
+    transform:scale(2);
+}
+#inner:active{
+    background-color: blueviolet;
+}
