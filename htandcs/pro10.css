@@ -1,0 +1,12 @@
+#hel{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    animation-name: trans;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes trans{
+    from{transform:translate(-200px);}
+    to{transform:translate(0)px;}
+}
