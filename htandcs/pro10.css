@@ -1,12 +1,20 @@
+#no{
+    height:50vh;
+    width:50vw;
+    background-color:bisque;
+    position:relative;
+    left:750px;
+}
 #hel{
-    height:100px;
-    width:100px;
-    background-color:aqua;
-    animation-name: trans;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: ik;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    /* animation-direction: reverse;  */
 }
-@keyframes trans{
-    from{transform:translate(-200px);}
-    to{transform:translate(0)px;}
-}
+@keyframes ik{
+    from{transform:translate(800px)};
+    to{transform:translate(0px)};
+} 

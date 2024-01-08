@@ -1,0 +1,15 @@
+#ki{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 60px solid white;
+    border-top:60px solid black;
+    border-left:60 px solid gray;
+    animation-name: gol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes gol{
+   from{transform:rotate(0deg);}
+   to{ transform:rotate(360deg);}
+}
