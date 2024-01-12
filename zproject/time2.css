@@ -327,19 +327,19 @@
 }
 #photo6{
     height:75%;
-    margin: 0px 1px 1.5px 1px;
+    margin: 0rem 1rem 1.5rem 1rem;
     background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
     background-size: cover;
 }
 #photo7{
     height:75%;
-    margin: 0px 1px 1.5px 1px;
+    margin: 0rem 1rem 1.5rem 1rem;
     background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg");
     background-size: cover;
 }
 #photo8{
     height:75%;
-    margin:0px 1px 1.5px 1px;
+    margin: 0rem 1rem 1.5rem 1rem;
     background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg");
     background-size:cover;
 }
@@ -362,11 +362,71 @@
     background-color:#222f3e;
     display:flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 #fro{
-    font-weight:700px;   
+    font-weight:800;   
     color:#DDDDDD;
 }
 #ba{
     color:#DDDDDD;
+}
+.logos{
+    background-color:#222f3e;
+    height:69px;
+    border-top:0.1px solid white;
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+}
+#logo1{
+    padding:7px 19px 7px 9px;
+    margin:0px 4px 0px 0px;
+    border: 1.5px solid white;
+    color:#DDDDDD;
+    border-radius: 3px;
+    font-size:0.9rem;
+}
+#flag{
+    height:10px;
+}
+.lw{
+    padding:30px 0px;
+    background-color: #131A22;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding-left:16%;
+    padding-right:16%;
+}
+.ug{
+    padding:0px 15px;
+}
+#up{margin-bottom:0;
+    margin-top:0;
+    font-size:0.9rem;
+    color:white;
+}
+#lo{margin-top:0;
+    margin-bottom:0;
+    font-size:0.9rem;
+   color:#999999;
+}
+.last{
+    background-color:#131A22;
+    padding:10px 0px 30px;
+}
+.last1{
+    display:flex;
+    justify-content:center;
+    align-items:end;
+}
+#tx{margin-top:0;
+    margin-bottom:0;
+    font-size:0.9rem;
+    color:white;
+    padding:0px 7.2px;
+}
+.last2{  
+    text-align:center;
 }
