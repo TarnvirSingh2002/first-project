@@ -1,0 +1,131 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#photo1{
+    width: 150px;
+    height:50px;
+}
+.box2{
+    margin-top:0;
+    height:58px;
+    width: 455px;
+    padding:0px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-logo{   
+    border-top: 0.1px solid black;
+    border-left: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    padding:0px 0px 0px 10px;
+    height:41px;
+    width: 10%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color:grey;
+}
+#search-bar{
+   height:41px;
+   width:90%;
+   display:flex;
+   justify-content: left;
+   align-items: center;
+   padding:0px 10px 0px 0px;
+   border-top: 0.1px solid black;
+   border-bottom: 0.1px solid black;
+   border-right: 0.1px solid black;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+#txt{
+    border:none;
+    width:100%;  
+    font-size:0.9rem;
+    color:grey;
+}
+.box3{
+    background-color: #00B386;
+    height: 40px;
+    width:123px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 0;
+}
+#text2{
+    color:#FFFFFF;
+}
+.page2{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height:55vh; 
+}
+.text3{
+    text-align: center;
+    margin:48px 0px 0px;
+    height:220px;
+    width:745px; 
+    animation-name: move;  
+    animation-duration: 0.5s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+}
+#text3{
+    font-size:100px;
+    color:#44475B;
+}
+#text4{
+    font-size:28px;
+    color:#7C7E8C;
+    margin-top:20px;
+}
+#textho{
+    background-color: #00B386;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width:126px;
+    border-radius: 8px;
+    margin:20px 300px 0px;
+}
+#text5{
+    font-size:16px;
+    color:#FFFFFF;
+}
+@keyframes move{
+     0%{
+        margin-top:-10px;
+        }
+    100%{
+        margin-top:50px;
+    }
+}
+.page3{
+    height:1186px;
+    margin:0px 100px;
+    padding:80px 0px;
+    display:flex;
+    background-color: pink;
+}
+#left{
+    width:50%;
+    border-right:1px solid black;
+}
+#photo2{
+    height:150px;
+}
+#tx{
+    font-size: 69;
+}
+#right{
+    width:50%;
+}
