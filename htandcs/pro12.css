@@ -1,0 +1,19 @@
+.container{
+   display:grid;
+}
+#item1{
+    background-color: pink;
+    border:1px solid black;
+}
+#item2{
+    background-color: pink;
+    border:1px solid black;
+}
+#item3{
+    background-color: pink;
+    border:1px solid black;
+}
+#item4{
+    background-color: pink;
+    border:1px solid black;
+}
