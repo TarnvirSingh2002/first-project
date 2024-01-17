@@ -70,6 +70,8 @@
     display: flex;
     justify-content: center;
     height:55vh; 
+    position:relative;
+    z-index: 1;
 }
 .text3{
     text-align: center;
@@ -105,8 +107,12 @@
     color:#FFFFFF;
 }
 #back{
-    height:500px;
-    width:500px;
+    margin:69.5px 0px 11px;
+    height:70%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 @keyframes move{
      0%{
@@ -124,11 +130,12 @@
 }
 #left{
     width:50%;
-    border-right:1px solid black;
     padding-right:20px;
+    animation-name:pho1;
     animation-duration: 0.9s;
     animation-iteration-count: 1s;
     animation-timing-function:linear;
+    /* animation-direction: reverse; */
 }
 #photo2{
     height:150px;
@@ -176,9 +183,9 @@
 }
 @keyframes pho{
     0%{transform:translate(500px);}
-    100%{transform:translate(0)}
-};
+    100%{transform:translate(0);}
+}
 @keyframes pho1{
-    0%{margin-left:-50px;}
-    100%{margin-left:50px;}
+    0%{transform:translate(-500px);}
+    100%{transform: translate(0);}
 }
