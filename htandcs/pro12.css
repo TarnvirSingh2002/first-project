@@ -1,5 +1,8 @@
 .container{
    display:grid;
+   grid-gap: 6px;
+   grid-template-columns: repeat(auto-fill, minmax(100px,500px));
+   grid-auto-rows: minmax(32px, auto);
 }
 #item1{
     background-color: pink;

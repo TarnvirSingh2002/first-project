@@ -1,0 +1,17 @@
+.a{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(40px,auto));
+    grid-auto-rows: minmax(40px,auto);
+}
+.b{
+    
+    background-color: blue;
+}
+.c{
+    
+    background-color: rgb(47, 132, 73);
+}
+.d{
+    
+    background-color: rgb(168, 227, 18);
+}
