@@ -1,0 +1,26 @@
+.in{
+    text-align: center;
+}
+#bingo{
+    display:inline;
+    height:43px;
+    background-color: rgb(148, 186, 199);
+    border:1px solid #000000;
+    line-height: 43px;
+    text-align: center;
+    font-size: 33px;
+    border-radius: 10px;
+}
+#bingo:hover{
+    box-shadow: 6px 6px 6px blue;
+    cursor: pointer;
+    background:linear-gradient(
+        to right,
+        red,
+        yellow,
+        orange
+    );
+}
+body{
+    background-color: black;
+}

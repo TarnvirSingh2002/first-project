@@ -4,14 +4,14 @@
     width:100px;
     background-color:aqua;
     top:24px;
-    position:relative;/*it's used to position or place div in relation with body or their parent div*/   
+    position:relative;/*it's used to position or place div in relative or relation with body*/   
 }
 #da{
     display:inline-block;
     height:100px;
     width:100px;
     background-color:rgba(0,255,0,0.34);
-    position:absolute;/*it's used to position or place div in relation with browser*/
+    position:absolute;/*it's used to position or place div in relation with parent div*/
     top: 89px;
 }
 #ha{
