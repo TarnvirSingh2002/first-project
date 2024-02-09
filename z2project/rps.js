@@ -15,37 +15,38 @@ const computer_choice=()=>{
 t.forEach((choice)=>{
     choice.addEventListener("click",()=>{
         const user=choice.getAttribute("id");
-        return compete(user);
+        compete(user);
     });
 });
 
 const compete=(user)=>{
-    console.log(computer_choice());
+    let y=computer_choice();
+    console.log(y);
     console.log(user);
-    if(user==computer_choice()){
+    if(user==y){
        txt.innerText=("draw");
     }
-    else if(user=="rock1" && computer_choice()=="paper1"){
+    else if(user=="rock1" && y=="paper1"){
         txt.innerText=("computer win");
         computers_score++;
         ma.innerText=computers_score;
     }
-    else if(user=="scissors1" && computer_choice()=="rock1"){
+    else if(user=="scissors1" && y=="rock1"){
         txt.innerText=("computer win");
         computers_score++;
         ma.innerText=computers_score;
     }
-    else if(user=="paper1" && computer_choice()=="scissors1"){
+    else if(user=="paper1" && y=="scissors1"){
         txt.innerText=("computer win");
         computers_score++;
         ma.innerText=computers_score;
     }
-    else if(user=="paper1" && computer_choice()=="rock1"){
+    else if(user=="paper1" && y=="rock1"){
         txt.innerText=("you win");
         users_score++;
         tu.innerText=users_score;
     }
-    else if(user=="rock1" && computer_choice()=="scissors1"){
+    else if(user=="rock1" && y=="scissors1"){
         txt.innerText=("you win");
         users_score++;
         tu.innerText=users_score;
@@ -56,5 +57,4 @@ const compete=(user)=>{
         users_score++;
         tu.innerText=users_score;
     }
-    // else if()
 }

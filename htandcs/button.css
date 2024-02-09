@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 .in{
     text-align: center;
 }
@@ -20,6 +26,7 @@
         yellow,
         orange
     );
+    opacity: 0.4;
 }
 body{
     background-color: black;
