@@ -1,0 +1,52 @@
+
+.h{
+    height:800px;
+    width:100vw;
+    background-color: rgb(48, 46, 49);
+}
+.h1{
+    height:800px;
+    width:100vw;
+    background-color: rgb(89, 42, 112);
+}
+.h2{
+    height:800px;
+    width:100%;
+    background-color: rgb(53, 33, 72);
+}
+.container {
+    height: 500px;
+    width: 100px;
+    background: #ed565d;
+    position: relative;
+    /* animation-name: ani;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-duration: 2s; */
+}
+.container2{
+    animation-name: ani;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+@keyframes ani{
+    from{
+        transform:translate(0);
+    }
+    to{
+        transform:translate(500px);
+    }
+} 
+  
+.white {
+    background: #ffffff;
+    height: 10px;
+    width: 10px;
+    margin: auto;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+  

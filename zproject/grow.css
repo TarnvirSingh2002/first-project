@@ -48,10 +48,9 @@
     width:100%;  
     font-size:0.9rem;
     color:grey;
+    outline:none;
 }
-#txt:action{
-    border:none;
-}
+
 .box3{
     background-color: #00B386;
     height: 40px;
@@ -77,11 +76,11 @@
     text-align: center;
     margin:48px 0px 0px;
     height:220px;
-    width:745px; 
+    width:745px;
     animation-name: move;  
     animation-duration: 0.9s;
     animation-timing-function:linear;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; 
 }
 #text3{
     font-size:100px;
@@ -131,6 +130,24 @@
 #left{
     width:50%;
     padding-right:20px;
+}
+.leftscr{
+    animation-name:pho1;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1s;
+    animation-timing-function:linear;
+}
+.page31{
+    height:640px;
+    margin:100px 100px;
+    padding:80px 0px;
+    display:flex;
+}
+#left1{
+    width:50%;
+    padding-right:20px;
+}
+.leftscr1{
     animation-name:pho1;
     animation-duration: 0.9s;
     animation-iteration-count: 1s;
@@ -178,6 +195,20 @@
 }
 #phone{
     height: 657px;
+    
+}
+.phonew{
+    animation-name:pho;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1s;
+    animation-timing-function:linear;
+}
+
+#phonez{
+    height: 657px;
+    
+}
+.phonewz{
     animation-name:pho;
     animation-duration: 0.9s;
     animation-iteration-count: 1s;
@@ -194,6 +225,8 @@
 
 #ph1{
     height:500px;
+}
+.ph1scr{
     animation-name:pho;
     animation-duration: 0.9s;
     animation-iteration-count: 1s;

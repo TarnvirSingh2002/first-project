@@ -2,6 +2,7 @@
     display:grid;
     grid-template-columns: repeat(auto-fill,minmax(40px,auto));
     grid-auto-rows: minmax(40px,auto);
+    place-items: center;/*this method is used place items in center*/ 
 }
 .b{
     
