@@ -3,8 +3,7 @@
     width:100px;
     background-color:rgba(255,0,0,0.2);
     transition: all 2s;
-    transform: translate(200px);
-    
+    transform: translate(200px);  
 }
 #same:hover{
     transform:skew(50deg);
