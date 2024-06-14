@@ -6,7 +6,7 @@ class b{
         console.log(this.jj);
     }
 }
-export class a extends b{
+class a extends b{
     constructor(aa,k){
         super(k);
         this.aa=aa;
@@ -15,3 +15,4 @@ export class a extends b{
         console.log(this.aa);
     }
 }
+export  {a};
